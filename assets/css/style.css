@@ -148,7 +148,7 @@ h1, h2, h3, h4, h5, h6 {
   display: inline-block;
 }
 .get-started-btn:hover {
-  background: #00b371;
+  background: #1b7091;
   color: #fff;
 }
 @media (max-width: 992px) {
@@ -441,7 +441,7 @@ h1, h2, h3, h4, h5, h6 {
   animation-timing-function: steps;
   opacity: 1;
   border-radius: 50%;
-  border: 5px solid rgba(0, 153, 97, 0.7);
+  border: 5px solid rgb(38 137 175);
   top: -15%;
   left: -15%;
   background: rgba(198, 16, 0, 0);
@@ -514,7 +514,7 @@ section {
 }
 
 .section-bg {
-  background-color: #8fffd6;
+  background-color: #1b7091;
 }
 
 .section-title {
@@ -673,7 +673,7 @@ section {
   border-radius: 50px;
 }
 .cta .cta-btn:hover {
-  background: #00b371;
+  background: #1b7091;
 }
 @media (max-width: 1024px) {
   .cta {
@@ -856,7 +856,7 @@ section {
   transition: ease-in-out 0.3s;
 }
 .portfolio .portfolio-item .portfolio-info .preview-link:hover, .portfolio .portfolio-item .portfolio-info .details-link:hover {
-  color: #33ffb4;
+  color: #1b7091;
 }
 .portfolio .portfolio-item .portfolio-info .details-link {
   right: 15px;
@@ -1011,8 +1011,8 @@ section {
   color: #fff;
 }
 .pricing .recommended .btn-buy:hover {
-  background: #00b371;
-  border-color: #00b371;
+  background: #1b7091;
+  border-color: #1b7091;
 }
 .pricing .recommended-badge {
   position: absolute;
@@ -1174,7 +1174,7 @@ section {
 .contact .php-email-form .sent-message {
   display: none;
   color: #fff;
-  background: #18d26e;
+  background: #1b7091;
   text-align: left;
   padding: 15px;
   font-weight: 600;
@@ -1195,7 +1195,7 @@ section {
   width: 24px;
   height: 24px;
   margin: 0 10px -6px 0;
-  border: 3px solid #18d26e;
+  border: 3px solid #1b7091;
   border-top-color: #eee;
   -webkit-animation: animate-loading 1s linear infinite;
   animation: animate-loading 1s linear infinite;
@@ -1224,7 +1224,7 @@ section {
   border-radius: 50px;
 }
 .contact .php-email-form button[type=submit]:hover {
-  background: #00b371;
+  background: #1b7091;
 }
 @-webkit-keyframes animate-loading {
   0% {
@@ -1322,7 +1322,7 @@ section {
   transition: 0.3s;
 }
 #footer .social-links a:hover {
-  background: #00b371;
+  background: #1b7091;
   color: #fff;
   text-decoration: none;
 }
@@ -1333,9 +1333,29 @@ section {
   font-size: 13px;
 }
 #footer .credits a {
-  color: #00b371;
+  color: #1b7091;
   transition: 0.3s;
 }
 #footer .credits a:hover {
   color: #55b0d3;
+}
+
+.input{
+  height: 35px;
+  width: 350px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  padding: 21px;
+  border: 3px solid #55b0d3;
+}
+.input:hover{
+  border: 3px solid #277fa1;
+}
+.cta textarea.form-control {
+  border: 3px solid #55b0d3;
+}
+.nav{
+  flex-wrap: wrap;
+    list-style: none;
+    justify-content: space-evenly;
 }
