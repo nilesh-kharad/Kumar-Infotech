@@ -1121,7 +1121,7 @@ section {
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
-textarea.form-control::placeholder,
+.cta textarea.form-control::placeholder,
 ::placeholder {
   color: rgb(235, 233, 233);
 }
@@ -1152,4 +1152,13 @@ h6.mb-0:hover{
 }
 .icon.icon-box.section-title {
   background: #f3f1f1;
+}
+.career.btn.text-center.mt-3{
+  background: #55b0d3;
+    border: 0;
+    padding: 10px 30px;
+    color: #000;
+    transition: 0.4s;
+    border-radius: 50px;
+    width: 100%;
 }
