@@ -1150,3 +1150,6 @@ h6.mb-0:hover{
 .icon img {
   width: 70%;
 }
+.icon.icon-box.section-title {
+  background: #f3f1f1;
+}
