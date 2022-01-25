@@ -30,6 +30,11 @@
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
+  <style>
+    #careerInindia{
+      display: none;
+    }
+  </style>
 </head>
 
 <body>
@@ -381,18 +386,18 @@
         </div>
         <ul class="nav nav-tabs mb-3 border-bottom-0 feature-tabs" data-tabs="tabs">
           <li class="nav-item">
-            <a class="py-2 d-flex align-items-center active" href="#career-tab1" onclick="tab" data-toggle="tab">
+            <a class="py-2 d-flex align-items-center active" onclick="tab('careerInuk','careerInindia')" data-toggle="tab">
               <h6 class="mb-0">Jobs In UK</h6>
             </a>
           </li>
           <li class="nav-item">
-            <a class="py-2 d-flex align-items-center" href="#career-tab2" onclick="tab" data-toggle="tab">
+            <a class="py-2 d-flex align-items-center" onclick="tab('careerInindia','careerInuk')" data-toggle="tab">
               <h6 class="mb-0">Jobs In India</h6>
             </a>
           </li>
         </ul>
         <div class="tab-content feature-tab-content">
-          <div class="tab-pane active" id="career-tab1">
+          <div class="tab-pane active" id="careerInuk">
             <div class="item items-3">
               <div class="inner">
                 <div class="info info_align-bottom">
@@ -408,7 +413,7 @@
               </div>
             </div>
           </div>
-          <div class="tab-pane" id="career-tab2">
+          <div class="tab-pane" id="careerInindia">
             <div class="item items-3">
               <div class="inner">
                 <div class="info info_align-bottom">
@@ -552,7 +557,15 @@
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
 
-  </script>
-</body>
 
+</body>
+<script>
+  function tab(a,b){
+    console.log(a,b)
+    var first = document.getElementById(a)
+    first.style.display = "block";
+   var second = document.getElementById(b)
+   second.style.display = 'none'
+  }
+</script>
 </html>
