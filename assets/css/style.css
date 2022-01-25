@@ -1097,22 +1097,31 @@ section {
 }
 
 .input{
-  height: 35px;
+  height: 45px;
   width: 350px;
   margin-bottom: 15px;
   border-radius: 10px;
-  padding: 21px;
-  border: 3px solid #55b0d3;
-}
-.input:hover{
-  border: 3px solid #277fa1;
+  border: 2px solid #55b0d3 !important;
+  color: #fff;
+  background: transparent;
 }
 .cta textarea.form-control {
   border-radius: 10px;
-  border: 3px solid #55b0d3;
+  border: 3px solid #55b0d3 !important;
+  background: transparent;
+  color: #fff;
 }
+.cta textarea.form-control:hover,
+.input:hover{
+  border: 3px solid #277fa1 !important;
+}
+
 .nav{
     flex-wrap: wrap;
     list-style: none;
     justify-content: space-evenly;
+}
+textarea.form-control::placeholder,
+::placeholder {
+  color: rgb(235, 233, 233);
 }
